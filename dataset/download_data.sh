@@ -1,0 +1,3 @@
+#!/bin/sh
+cd dataset
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1j314S1DOXtoM596e_e7GsOzIW9lpsyKh' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1j314S1DOXtoM596e_e7GsOzIW9lpsyKh" -O russian_medical_texts_for_abbreviation_identification.txt && rm -rf /tmp/cookies.txt

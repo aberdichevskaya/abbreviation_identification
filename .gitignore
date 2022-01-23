@@ -6,9 +6,9 @@ fit_language_models/*
 creation_for_module1/*
 catboost_info/*
 *.tar.gz
+*.xlsx
 
 /data
-/dataset
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

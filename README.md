@@ -1,0 +1,1 @@
+Here we present code for abbreviation identification in Russian medical text
